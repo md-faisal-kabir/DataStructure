@@ -13,3 +13,8 @@ def strin_gen(li):
         shuffle(li)
     
     return ls
+
+
+if __name__ == "__main__":
+    li=['c','a','t','d','o','g']
+    print(strin_gen(li))
